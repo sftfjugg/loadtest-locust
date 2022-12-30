@@ -6,10 +6,10 @@ package util
 import (
 	"context"
 	"errors"
-	"go-locust/config"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
+	"loadtest-locust/config"
 	"os"
 )
 
@@ -117,8 +117,8 @@ func InitLog() {
 }
 
 // 日志业务流追踪，在需要追踪一个完整的业务流开始前调用，并并写道日志里面，比如：
-//ctx := TraceLogger()
-//util.Sugar.Infow("购物流程","traceId",ctx.Value("traceId"))
+// ctx := TraceLogger()
+// util.Sugar.Infow("购物流程","traceId",ctx.Value("traceId"))
 func TraceLogger() context.Context {
 	ctx := context.WithValue(context.Background(), "traceId", GenUUID())
 	return ctx

@@ -2,8 +2,8 @@ package contrib
 
 import (
 	"context"
-	"go-locust/dao"
-	"go-locust/util"
+	"loadtest-locust/dao"
+	"loadtest-locust/util"
 	"sync"
 )
 

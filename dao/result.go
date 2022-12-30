@@ -1,8 +1,8 @@
 package dao
 
 import (
-	"go-locust/db"
-	"go-locust/util"
+	"loadtest-locust/db"
+	"loadtest-locust/util"
 	"time"
 )
 

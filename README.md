@@ -42,7 +42,7 @@ go mod tidy
 # 包问题
 
 go: finding module for package google.golang.org/grpc/naming
-go-locust/db imports
+loadtest-locust/db imports
 github.com/coreos/etcd/clientv3 tested by
 github.com/coreos/etcd/clientv3.test imports
 github.com/coreos/etcd/integration imports

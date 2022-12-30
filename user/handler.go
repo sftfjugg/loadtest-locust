@@ -2,8 +2,8 @@ package user
 
 import (
 	"github.com/gin-gonic/gin"
-	"go-locust/contrib"
-	"go-locust/dao"
+	"loadtest-locust/contrib"
+	"loadtest-locust/dao"
 	"net/http"
 	"strconv"
 )

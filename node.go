@@ -3,11 +3,11 @@ package main
 import (
 	"context"
 	"encoding/json"
-	"go-locust/contrib"
-	"go-locust/dao"
-	"go-locust/db"
-	"go-locust/util"
 	"go.uber.org/zap"
+	"loadtest-locust/contrib"
+	"loadtest-locust/dao"
+	"loadtest-locust/db"
+	"loadtest-locust/util"
 	"os"
 	"time"
 )

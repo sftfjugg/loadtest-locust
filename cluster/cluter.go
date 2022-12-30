@@ -1,8 +1,8 @@
 package cluster
 
 import (
-	"go-locust/db"
-	"go-locust/util"
+	"loadtest-locust/db"
+	"loadtest-locust/util"
 	"strconv"
 	"strings"
 	"time"

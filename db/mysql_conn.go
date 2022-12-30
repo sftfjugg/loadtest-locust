@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
-	"go-locust/config"
-	"go-locust/util"
+	"loadtest-locust/config"
+	"loadtest-locust/util"
 	"time"
 )
 

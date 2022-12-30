@@ -1,4 +1,4 @@
-module go-locust
+module loadtest-locust
 
 go 1.19
 

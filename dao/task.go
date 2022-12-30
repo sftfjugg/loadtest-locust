@@ -2,8 +2,8 @@ package dao
 
 import (
 	"encoding/json"
-	"go-locust/db"
-	"go-locust/util"
+	"loadtest-locust/db"
+	"loadtest-locust/util"
 )
 
 type LocustTask struct {

@@ -2,7 +2,7 @@ package db
 
 import (
 	"github.com/gomodule/redigo/redis"
-	"go-locust/config"
+	"loadtest-locust/config"
 )
 
 var redisPool redis.Pool

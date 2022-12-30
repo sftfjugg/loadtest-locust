@@ -2,12 +2,12 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"go-locust/cluster"
-	"go-locust/contrib"
-	"go-locust/dao"
-	"go-locust/db"
-	"go-locust/user"
-	"go-locust/util"
+	"loadtest-locust/cluster"
+	"loadtest-locust/contrib"
+	"loadtest-locust/dao"
+	"loadtest-locust/db"
+	"loadtest-locust/user"
+	"loadtest-locust/util"
 
 	"github.com/gin-contrib/pprof"
 )
